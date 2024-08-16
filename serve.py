@@ -36,7 +36,7 @@ app=FastAPI(title="Langchain Server",
 # Add CORS middleware to your FastAPI app
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ex24llmapplication-k8az6hqp9pf8gtopa6vbm4.streamlit.app"],  # Replace with your frontend URL
+    allow_origins=["https://translator-11.streamlit.app/"],  # Replace with your frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
